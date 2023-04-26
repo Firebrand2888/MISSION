@@ -1,0 +1,195 @@
+/* 오늘의 쇼핑 제안 */
+body {
+    box-sizing: border-box;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+picture {
+    display: flex;
+    align-self: flex-start;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1022px;
+    height: 354px;
+    margin: 0 auto;
+}
+
+h2 {
+    display: flex;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 115%;
+    width: 234px;
+    height: 30px;
+    align-self: flex-start;
+
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.icon {
+    background-image: url(/Mission-02/assets/icon/shopping.svg);
+    width: 30px;
+    height: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+
+
+.product-card-furniture {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 270px;
+    background: #FFFFFF;
+    position: relative;
+}
+
+.product-card-renton {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 270px;
+    background: #FFFFFF;
+    position: relative;
+}
+.product-card-boohgle {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 270px;
+    background: #FFFFFF;
+    position: relative;
+}
+.product-card-drying-rack {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 270px;
+    background: #FFFFFF;
+    position: relative;
+}
+
+
+.product-card-deskset {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 270px;
+    background: #FFFFFF;
+    position: relative;
+}
+
+.discount {
+    background-color: #E52330;
+    border-radius: 0px 0px 4px 0px;
+    position: absolute;
+    width: 53px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    padding-left: 0.7rem;
+}
+
+
+.product-info-container {
+    display: flex;   
+    width: 172px;
+    flex-direction: column;
+}
+
+.shipping-rocket {
+    background-image: url(/Mission-02/assets/icon/badge-rocket.svg);
+    width: 55px;
+    height: 16px;
+    background-repeat: no-repeat;
+}
+
+.shipping {
+    width: 52px;
+height: 17px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 120%;
+color: #767676;
+}
+
+.produck-info {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 172px;
+    height: 17px;
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 120%;
+margin-bottom: 12px;
+}
+
+
+.rating {
+    background-image: url(/Mission-02/assets/icon/shopping.svg);
+    width: 68px;
+    height: 12px;
+    background-position: 0 26px;
+}
+
+.rating-container {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+line-height: 120%;
+color: #767676;
+display: flex;
+align-items: center;
+flex-direction: row;
+}
+
+.product-img {
+    width: 160px;
+    height: 160px;
+    margin-bottom: 12px;
+
+}
